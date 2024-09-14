@@ -72,3 +72,13 @@
     text-decoration: none;
     color: var(--slate-900);
 }
+
+@media only screen and (max-width: 375px){
+    .qr-code-component{
+        width: 85%;
+    }
+
+    .attribution{
+        padding: 2rem 0;
+    }
+}
